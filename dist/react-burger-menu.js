@@ -1366,7 +1366,6 @@ var styles = {
         },
         menuWrap: function menuWrap(isOpen, width, right) {
             return {
-                position: 'fixed',
                 right: right ? 0 : 'inherit',
                 zIndex: 1100,
                 width: width,
